@@ -1,0 +1,47 @@
+header {
+    padding: 80px 2rem 50px 2rem;
+    text-align: center;
+}
+
+header :is(h1, p.heading) {
+    font-size: 1.5rem;
+    color: $very-Dark-Blue;
+}
+
+header :is(p.heading) {
+    font-family: $font-thin;
+}
+
+header h1 {
+    margin-bottom: 1.125rem;
+}
+
+header p {
+    font-family: $font-light;
+    color: $grayish-Blue;
+    max-width: 500px;
+    margin: auto;
+}
+
+@media screen and (min-width:375px) {
+    header {
+        padding: 0;
+        text-align: center;
+    }
+
+    header :is(h1, p.heading) {
+        font-size: 2.25rem;
+        color: $very-Dark-Blue;
+        line-height: 1.5;
+    }
+
+
+
+    header :is(p.heading) {
+        font-family: $font-thin;
+        letter-spacing: 1px;
+    }
+
+
+
+}
